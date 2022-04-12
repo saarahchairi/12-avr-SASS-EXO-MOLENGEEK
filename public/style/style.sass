@@ -1,0 +1,142 @@
+body
+    margin:0
+
+header
+    #newsletter
+        padding: 8px 0
+        background-color: #944d9e
+        display: flex
+        justify-content: center
+        align-items: center
+        .logo 
+            position: absolute
+            left: 10px
+            top: 1px
+            width: 30px
+        .newsletter_form
+            color: #fff
+            width: 600px
+            [plecaholder="eMail"]
+                border-radius: 4px
+                border: 0
+                color: #a8b1b4
+                padding: 2px 2px 2px 8px
+            input::placeholder
+                font-style: italic
+                color: #a8b1b4
+            button
+                background-color: #00e173
+                color: #f7f7f7
+                border-radius: 4px
+                border: 0
+                height: 26px
+                margin-left: 2px
+                padding: 2px 6px
+    nav
+        height: 120px
+        border-bottom: 1px solid #ededed
+        font-weight: bold
+        overflow: hidden
+        .logo
+            float: left
+            width: 20%
+            height: 100%
+            display: flex
+            justify-content: center
+            align-items: center
+            border-right: 1px solid #ededed
+            box-sizing: border-box
+            img
+                width: 150px
+        .menu
+            float: left
+            width: 60%
+            height: 100%
+            display: flex
+            align-items: center
+            ul
+                width: 80%
+                margin: 0 auto
+                li
+                    list-style-type: none
+                    float: left
+                    margin-left: 40px
+                    a
+                        text-decoration: none
+                        color: #333
+                    a:hover 
+                        border-bottom: 3px solid #333
+        .coworking
+            float: left
+            width: 20%
+            height: 100%
+            border-left: 1px solid #ededed
+            box-sizing: border-box
+            a
+                text-decoration: none
+                color: #333
+                width: 100%
+                height: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+            a:hover 
+                background-color: #944d9e
+                color: white
+
+#molengeek
+    color: #4e4e4e
+    .container
+        width: 65%
+        margin: 0 auto
+        .titre_principal
+            text-align: center
+            font-size: 32px
+            font-weight: lighter
+        p
+            text-align: justify
+        ul li
+            list-style-type: none
+        ul li:before 
+            content: "\2022"
+            margin-right: 10px
+            color: #9b009d
+
+footer
+    background-color: #333333
+    height: 400px
+    margin-top: 50px
+    padding-top: 65px
+    text-align: center
+    #social
+        .mes-reseaux
+            height: 100px
+            width: 700px
+            margin: 0 auto
+            display: flex
+            justify-content: center
+            align-items: center
+            position: relative
+            div
+                a
+                    text-decoration: none
+                    color: white
+                    div
+                        display: inline-block
+                        img
+                            width: 50px
+                    span
+                        position: absolute
+                        top: 40px
+                        margin-left: 30px
+            .twitter
+                margin: 0 110px
+    section:nth-child(2)
+        border-top: 1px solid gray
+        margin-top: 80px
+        padding-top: 65px
+        img
+            width: 200px
+
+
+
